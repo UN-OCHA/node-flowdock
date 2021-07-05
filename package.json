@@ -27,12 +27,12 @@
     "lib": "./lib"
   },
   "dependencies": {
+    "abort-controller": "^3.0.0",
     "buffer-indexof": "^1.0.0",
-    "request": "~2.58.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
-    "coffee-script": "~1.9.3",
-    "mocha": "~2.2.5"
+    "mocha": "^9.0.2"
   },
   "scripts": {
     "test": "make test",
